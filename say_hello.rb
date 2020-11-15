@@ -1,5 +1,6 @@
 def say_hello
-  puts "Hello, #{name = "Ruby programmer"}"
+  puts "Hello, #{name}"
+  name = "Ruby programmer"
 end
 
 say_hello("Gabriela")
